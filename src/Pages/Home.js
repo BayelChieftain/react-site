@@ -7,7 +7,7 @@ export default class Home extends Component {
     return (
       <>
         <CarouselBox/>
-        <Container style={{margin:'0 auto', width:'1156px'}}>
+        <Container>
           <h2 className='text-center m-4'>Our team</h2>
           <Row  md={2} className="m-2"> 
             <Card style={{width:"350px", height:"350px"}} border="success" >
